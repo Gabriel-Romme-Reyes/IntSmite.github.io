@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets\style.css">
+
+
+</head>
+<body>
+
+<!--navbar section -->
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-warning" href="#">Fitness Gym</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Classes</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Classes</a></li>
+            <li><a class="dropdown-item" href="#">Time table</a></li>
+          </ul>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning " type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--navbar end -->
+
+<!--hero section-->
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="overlay-image" style="background-image: url(./assets/img/carousel-1.jpg);"></div>
+      <div class="container">
+        <div class="row">
+        <div class="carousel-caption d-none d-md-block col col-lg-6">
+            <h5 class="text-warning">
+                Start your fitness journey
+            </h5>
+            <h1 class="hero-caption">BUILD A PERFECT HEALTH GROWTH</h1>
+            <a href="#" class="btn btn-lg btn-warning">Join us</a>
+            <a href="#" class="btn btn-lg btn-warning">About us</a>
+
+        </div>
+        </div>
+
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="overlay-image" style="background-image: url(./assets/img/carousel-2.jpg);"></div>
+      <div class="container">
+        <div class="row">
+        <div class="carousel-caption d-none d-md-block col col-lg-6">
+            <h5 class="text-warning">
+                Start your fitness journey
+            </h5>
+            <h1 class="hero-caption">BUILD A PERFECT HEALTH GROWTH</h1>
+            <a href="#" class="btn btn-lg btn-warning">Join us</a>
+            <a href="#" class="btn btn-lg btn-warning">About us</a>
+
+        </div>
+        </div>
+        
+        </div>
+    </div>
+    <div class="carousel-item">
+     <div class="overlay-image" style="background-image: url(./assets/img/carousel-3.jpg);"></div>
+      <div class="container">
+        <div class="row">
+        <div class="carousel-caption d-none d-md-block col col-lg-6">
+            <h5 class="text-warning">
+                Start your fitness journey
+            </h5>
+            <h1 class="hero-caption">BUILD A PERFECT HEALTH GROWTH</h1>
+            <a href="#" class="btn btn-lg btn-warning">Join us</a>
+            <a href="#" class="btn btn-lg btn-warning">About us</a>
+
+        </div>
+        </div>
+        
+        </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- hero end -->
+
+
+
+
+<!-- features -->
+
+ <div class="container px-4 py-5" >
+
+    <div class="row gx-5 py-5 row-cols-1 row-cols-lg-3 ">
+
+      <div class="col d-flex align-items-start ">
+
+      <div class="bg-dark text-light p-3 border-radius-20">
+        <i class="bi-alarm"></i>
+        <div>
+          <h2>Tons Of Equipment</h2>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+
+        </div>
+        </div>
+      </div>
+
+
+
+      <div class="col d-flex align-items-start ">
+
+      	<div class="bg-warning text-light p-3 border-radius-20">
+        <i class="bi-person"></i>
+        <div>
+          <h2>Experienced Trainers</h2>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+
+        </div>
+        </div>
+      </div>
+
+
+
+      <div class="col d-flex align-items-start ">
+
+      	<div class="bg-dark text-light p-3 border-radius-20">
+        <i class="bi-file-music"></i>
+        <div>
+          <h2>Best Training</h2>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+ 
+        </div>
+      </div>
+  </div>
+    </div>
+
+
+  </div>
+
+<!--features end -->
+
+<!-- about -->
+<div class="aboutus-section">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 ">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="aboutus">
+                        <h2 class="aboutus-title">About Us</h2>
+                        <p class="aboutus-text">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                        <p class="aboutus-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of orem psum you need to be sure.All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks</p>
+                        <a class="aboutus-more" href="#">read more</a>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-6 col-xs-12">
+ <img src="assets\img\gallery-3.jpg" class="d-block w-100" alt="..." style="box-shadow: 10px 10px 10px grey;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- about end-->
+
+<!--timetable -->
+<div class="container-lg">
+<div class="col-lg-12 text-center text-uppercase">
+    <h5 class="text-warning">class timetable</h5>
+    <h1>timetable</h1>
+    <br>
+    <p>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+   
+</div>
+</div>
+<div class="container py-5">
+                <div class="timetable-img text-center ">
+                    <img src="img/content/timetable.png" alt="">
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center text-uppercase">
+                        <thead>
+                            <tr class="bg-light-gray">
+                                <th class="text-uppercase">Time
+                                </th>
+                                <th class="text-uppercase">Monday</th>
+                                <th class="text-uppercase">Tuesday</th>
+                                <th class="text-uppercase">Wednesday</th>
+                                <th class="text-uppercase">Thursday</th>
+                                <th class="text-uppercase">Friday</th>
+                                <th class="text-uppercase">Saturday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="align-middle">09:00am</td>
+                                <td>
+                                    <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Dance</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Marta Healy</div>
+                                </td>
+
+                                <td>
+                                    <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">cardio</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Dance</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Strength Training</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Kate Alley</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Hiit</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">James Smith</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="align-middle">10:00am</td>
+                                <td>
+                                    <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">cardio</span>
+                                    <div class="margin-10px-top font-size14">10:00-11:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td class="bg-light-gray">
+
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Strength Training</span>
+                                    <div class="margin-10px-top font-size14">10:00-11:00</div>
+                                    <div class="font-size13 text-light-gray">Kate Alley</div>
+                                </td>
+                                <td>
+                                    <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">10:00-11:00</div>
+                                    <div class="font-size13 text-light-gray">Marta Healy</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Hiit</span>
+                                    <div class="margin-10px-top font-size14">10:00-11:00</div>
+                                    <div class="font-size13 text-light-gray">James Smith</div>
+                                </td>
+                                <td class="bg-light-gray">
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="align-middle">11:00am</td>
+                                <td>
+                                    <span class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                    <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                </td>
+                                <td>
+                                    <span class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                    <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                </td>
+                                <td>
+                                    <span class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                    <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                </td>
+                                <td>
+                                    <span class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                    <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                </td>
+                                <td>
+                                    <span class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                    <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                </td>
+                                <td>
+                                    <span class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                    <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="align-middle">12:00pm</td>
+                                <td class="bg-light-gray">
+
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Strength Training</span>
+                                    <div class="margin-10px-top font-size14">12:00-1:00</div>
+                                    <div class="font-size13 text-light-gray">Kate Alley</div>
+                                </td>
+                                <td>
+                                    <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Dance</span>
+                                    <div class="margin-10px-top font-size14">12:00-1:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">cardio</span>
+                                    <div class="margin-10px-top font-size14">12:00-1:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td class="bg-light-gray">
+
+                                </td>
+                                <td>
+                                    <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">12:00-1:00</div>
+                                    <div class="font-size13 text-light-gray">Marta Healy</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="align-middle">01:00pm</td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Hiit</span>
+                                    <div class="margin-10px-top font-size14">1:00-2:00</div>
+                                    <div class="font-size13 text-light-gray">James Smith</div>
+                                </td>
+                                <td>
+                                    <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">cardio</span>
+                                    <div class="margin-10px-top font-size14">1:00-2:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td class="bg-light-gray">
+
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Hiit</span>
+                                    <div class="margin-10px-top font-size14">1:00-2:00</div>
+                                    <div class="font-size13 text-light-gray">James Smith</div>
+                                </td>
+                                <td>
+                                    <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">1:00-2:00</div>
+                                    <div class="font-size13 text-light-gray">Marta Healy</div>
+                                </td>
+                                <td>
+                                    <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">cardio</span>
+                                    <div class="margin-10px-top font-size14">1:00-2:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+<!--timetable end-->
+
+<!--Services-->
+
+<div class="container-fluid bg-dark p-5">
+    <div class="row">
+
+        <div class="col-lg-12 text-center text-light ">
+
+              <h5 class="text-warning text-uppercase">services</h5>
+            <h2 class="section-title">Services We Provide</h2>
+                  <br>
+        <br>
+        </div>
+
+
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> 
+
+                    <img src="assets\img\services-1.jpg" class=" w-100">
+                    
+                    <h4 class="mt-4 mb-3">Grid Training</h4>
+                    <p>For what reason would it be advisable for me to think about business content?</p>
+                    <a href="#" class="btn btn-lg btn-warning">Join us</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <img src="assets\img\service-2.jpg" class=" w-100">
+                    <h4 class="mt-4 mb-3">Cardio</h4>
+                    <p>For what reason would it be advisable for me to think about business content?</p>
+                    <a href="#" class="btn btn-lg btn-warning">Join us</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <img src="assets\img\services-3.jpg" class=" w-100">
+                    <h4 class="mt-4 mb-3">Yoga</h4>
+                    <p>For what reason would it be advisable for me to think about business content?</p>
+                    <a href="#" class="btn btn-lg btn-warning">Join us</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <img src="assets\img\services-4.jpg" class=" w-100">
+                    <h4 class="mt-4 mb-3">Strength Training</h4>
+                    <p>For what reason would it be advisable for me to think about business content?</p>
+                    <a href="#" class="btn btn-lg btn-warning">Join us</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--Services end-->
+
+<!--Trainers-->
+<div class="container py-5">
+    <div class="row p-5">
+        <div class="col-lg-12 text-center text-uppercase ">
+    <h5 class="text-warning">Trainers</h5>
+    <h1>Meet our expert trainers</h1>
+    <br>
+    <p>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+   
+</div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mt-80">
+            <div class="card bg-white d-flex align-items-center justify-content-center ">
+            <img src="assets/img/trainer-1.jpg" alt="" class="d-block w-100 rounded-circle py-5">
+                <div class="text-center ">
+                    <p class="name">Allison Smith</p>
+                    <p class="job">Fitness Trainer</p>
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon "><i class="bi-twitter"></i></li>
+                        <li class="icon mx-2"><i class="bi-facebook"></i></li>
+                        <li class="icon me-2"><i class="bi-google"></i></li>
+                        <li class="icon "><i class="bi-instagram"></i></li>
+                    </ul>
+                    <p class="dis pb-4"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mt-80">
+            <div class="card bg-white d-flex align-items-center justify-content-center">
+             <img src="assets/img/trainer-2.jpg" alt="" class="d-block w-100 rounded-circle py-5">
+                <div class="text-center ">
+                    <p class="name">Tyrone Blacc</p>
+                    <p class="job">Fitness Trainer</p>
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon "><i class="bi-twitter"></i></li>
+                        <li class="icon mx-2"><i class="bi-facebook"></i></li>
+                        <li class="icon me-2"><i class="bi-google"></i></li>
+                        <li class="icon "><i class="bi-instagram"></i></li>
+                    </ul>
+                    <p class="dis pb-4"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mt-80">
+            <div class="card bg-white d-flex align-items-center justify-content-center">
+           <img src="assets/img/trainer-3.jpg" alt="" class="d-block w-100 rounded-circle py-5">
+                <div class="text-center ">
+                    <p class="name">Lana Joanna</p>
+                    <p class="job">Fitness Trainer</p>
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon "><i class="bi-twitter"></i></li>
+                        <li class="icon mx-2"><i class="bi-facebook"></i></li>
+                        <li class="icon me-2"><i class="bi-google"></i></li>
+                        <li class="icon "><i class="bi-instagram"></i></li>
+                    </ul>
+                    <p class="dis pb-4"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mt-80">
+            <div class="card bg-white d-flex align-items-center justify-content-center">
+               <img src="assets/img/trainer-4.jpg" alt="" class="d-block w-100 rounded-circle py-5">
+                <div class="text-center ">
+                    <p class="name">Jason Smith</p>
+                   <p class="job">Fitness Trainer</p>
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon "><i class="bi-twitter"></i></li>
+                        <li class="icon mx-2"><i class="bi-facebook"></i></li>
+                        <li class="icon me-2"><i class="bi-google"></i></li>
+                        <li class="icon "><i class="bi-instagram"></i></li>
+                    </ul>
+                    <p class="dis pb-4 text-white"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Trainers end-->
+
+<!--Pricing -->
+
+<div class="container py-4">
+
+
+      <div class="row gutters-sm">
+
+        <div class="col-lg-12 text-center text-uppercase ">
+    <h5 class="text-warning">Pricing</h5>
+    <h1>Pricing plan</h1>
+    <br>
+    <p>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<br>
+   
+</div>
+
+
+        <div class="col-sm-6 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header border-bottom flex-column align-items-start p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-box text-secondary h3 stroke-width-1 mb-2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              <h4 class="text-secondary font-weight-light mb-2">Starter</h4>
+              <p class="font-size-sm mb-0">Nemo enim ipsam voluptatem quia volup tas sit.</p>
+            </div>
+            <div class="card-header border-bottom justify-content-center py-4">
+              <h1 class="pricing-price">
+                <small class="align-self-start">$</small>
+                29
+                <small class="align-self-end">/month</small>
+              </h1>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled font-size-sm mb-0">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Gym and Fitness</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Boxing Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Domain</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Cardio Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x text-danger mr-2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> <span class="text-secondary ml-1">Hiit Training</span></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x text-danger mr-2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>  <span class="text-secondary ml-1">Free meal</span></li>
+              </ul>
+            </div>
+            <div class="card-footer justify-content-center p-3">
+              <button class="btn btn-outline-secondary">JOIN NOW</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-xl-3 mb-3">
+
+
+          <div class="card border border-success">
+            <div class="card-header border-bottom flex-column align-items-start p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-package text-success h3 stroke-width-1 mb-2"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              <h4 class="text-success font-weight-light mb-2">Standard</h4>
+              <p class="font-size-sm mb-0">Volup tatem quia volup tas sit asper natur aut odit aut.</p>
+            </div>
+            <div class="card-header border-bottom justify-content-center py-4">
+              <h1 class="pricing-price">
+                <small class="align-self-start">$</small>
+                39
+                <small class="align-self-end">/month</small>
+              </h1>
+            </div>
+
+
+            <div class="card-body">
+              <ul class="list-unstyled font-size-sm mb-0">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Gym and Fitness+</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Boxing Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Yoga Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Cardio Training</span></li>
+ 
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x text-danger mr-2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span class="text-secondary ml-1">Hiit Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x text-danger mr-2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> <span class="text-secondary ml-1">Free meal</span></li>
+              </ul>
+            </div>
+            <div class="card-footer justify-content-center p-3">
+              <button class="btn btn-outline-success">JOIN NOW</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header border-bottom flex-column align-items-start p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers text-primary h3 stroke-width-1 mb-2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              <h4 class="text-primary font-weight-light mb-2">Premium</h4>
+              <p class="font-size-sm mb-0">Tas sit asper natur aut odit aut nemo enim ipsam volup.</p>
+            </div>
+            <div class="card-header border-bottom justify-content-center py-4">
+              <h1 class="pricing-price">
+                <small class="align-self-start">$</small>
+                49
+                <small class="align-self-end">/month</small>
+              </h1>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled font-size-sm mb-0">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Gym and Fitness+</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Boxing Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Yoga Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Cardio Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Hiit Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x text-danger mr-2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> <span class="text-secondary ml-1">Free meal</span></li>
+              </ul>
+            </div>
+            <div class="card-footer justify-content-center p-3">
+              <button class="btn btn-outline-primary">JOIN NOW</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm-6 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header border-bottom flex-column align-items-start p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gift text-danger h3 stroke-width-1 mb-2"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+              <h4 class="text-danger font-weight-light mb-2">VIP</h4>
+              <p class="font-size-sm mb-0">Tas sit asper natur aut odit aut nemo enim ipsam volup.</p>
+            </div>
+            <div class="card-header border-bottom justify-content-center py-4">
+              <h1 class="pricing-price">
+                <small class="align-self-start">$</small>
+                159
+                <small class="align-self-end">/month</small>
+              </h1>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled font-size-sm mb-0">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Gym and Fitness+</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Boxing Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Yoga Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Cardio Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Hiit Training</span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check text-success mr-2"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="text-secondary ml-1">Free meal</span></li>
+              </ul>
+            </div>
+            <div class="card-footer justify-content-center p-3">
+              <button class="btn btn-outline-danger">JOIN NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+<!--Pricing end-->
+
+<!--Testimonials-->
+
+<div class="container-fluid mt-5 mb-5">
+    <div class="row g-2 bg-dark p-5">
+
+            <div class="col-lg-12 text-center text-uppercase text-white">
+    <h5 class="text-warning">Testimonials</h5>
+    <h1>What clients say</h1>
+    <br>
+    <p>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<br>
+   
+</div>
+
+
+        <div class="col-md-4">
+            <div class="card p-3 text-center px-4">
+                <div class="user-image"> <img src="https://i.imgur.com/PKHvlRS.jpg" class="rounded-circle" width="80"> </div>
+                <div class="user-content">
+                    <h5 class="mb-0">Bruce Hardy</h5> <span>MMA Fighter</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 text-center px-4">
+                <div class="user-image"> <img src="https://i.imgur.com/w2CKRB9.jpg" class="rounded-circle" width="80"> </div>
+                <div class="user-content">
+                    <h5 class="mb-0">Mark Smith</h5> <span>Professional Bodybuilder</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 text-center px-4">
+                <div class="user-image"> <img src="https://i.imgur.com/ACeArwY.jpg" class="rounded-circle" width="80"> </div>
+                <div class="user-content">
+                    <h5 class="mb-0">Veera Duncan</h5> <span>Software Architect</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Testimonials end-->
+
+<!-- Gallery -->
+<div class="container">
+<div class="row">
+
+         <div class="col-lg-12 text-center text-uppercase ">
+    <h5 class="text-warning">Gallery</h5>
+    <h1>Photo gallery</h1>
+    <br>
+    <p>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<br>
+   
+</div>
+
+
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="assets\img\gallery-1.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="assets\img\gallery-2.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets\img\gallery-3.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="assets\img\gallery-4.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets\img\gallery-5.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="assets\img\gallery-6.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+
+    
+    <div class="col-lg-12 text-center py-5">
+        <a href="#" class="btn btn-lg btn-warning">See more</a>
+    </div>  
+</div>
+</div>
+
+<!-- Gallery -->
+
+<!--Footer-->
+
+<footer id="footer">
+    <div class="footer-newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                </div>
+                <div class="col-lg-6">
+                    <form action="" method="post"> <input type="email" name="email"><input type="submit" value="Subscribe"> </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Grid Training</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Cardio</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Yoga</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Strength Training</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Hiit</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4>Contact Us</h4>
+                    <p> A108 Adam Street <br> New York, NY 535022<br> United States <br><br> <strong>Phone:</strong> +1 5589 55488 55<br> <strong>Email:</strong> info@example.com<br> </p>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-info">
+                    <h3>About Fitness Gym</h3>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <div class="social-links mt-3"> <a href="#" class="twitter"><i class="bi-twitter"></i></a> <a href="#" class="facebook"><i class="bi-facebook"></i></a> <a href="#" class="instagram"><i class="bi-instagram"></i></a> <a href="#" class="linkedin"><i class="bi-linkedin"></i></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright"> © Copyright <strong><span>IntSmite</span></strong>. All Rights Reserved </div>
+        <div class="credits"> Designed by <a href="#">Gabriel Romme Reyes</a> </div>
+    </div>
+</footer>
+
+<!--Footer end-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
